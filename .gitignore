@@ -1,0 +1,72 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# Virtual Environment
+# ========================
+venv/
+env/
+.venv/
+.env/
+
+# ========================
+# Variables d'environnement
+# ========================
+.env
+.env.local
+*.env
+
+# ========================
+# Data (raw & staging)
+# ========================
+data/raw/
+data/staging/
+
+# Garder les dossiers vides dans git
+!data/raw/.gitkeep
+!data/staging/.gitkeep
+!data/analytics/.gitkeep
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ========================
+# IDE / Editeurs
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Airflow (upcoming)
+# ========================
+airflow/logs/
+airflow/plugins/
+airflow.cfg
+airflow.db
